@@ -1,9 +1,8 @@
-
-
 <!DOCTYPE html>
 <html>
   <head>
-    <title>PPEE Workshop 2021</title>
+    <!--<title>1ST WORKSHOP ON PARALLEL PROGRAMMING IN THE EXASCALE ERA (PPEE 2021)</title> -->
+    <title>PPEE 2021</title>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- css -->
@@ -14,7 +13,39 @@
 	<style>table, tr, td { color:#FFFFFF !important; padding:5px; }</style>
       </head>
   <body bgcolor="#013950">
+	<!--<div class="menu-area">
+			<div id="dl-menu" class="dl-menuwrapper">
+						<button class="dl-trigger">Open Menu</button>
+						<ul class="dl-menu">
+							<li>
+								<a href="#intro">Home</a>
+							</li>
+							<li><a href="#about">About</a></li>
+							<li><a href="#services">Conclave</a></li>
+							
+							<li><a href="ddc19" target="_blank">DDC 19</a></li>
+							<li><a href="#contact">Contact</a></li>
+							
+						</ul>
+					</div>
+	</div>	 -->
 
+	  <!-- intro area -->	  
+	  <!--<div id="intro">
+	  
+			<div class="intro-text">
+				<div class="container">
+					<div class="row">
+					
+					</div>
+				</div>
+		 	</div>
+			
+	 </div> -->
+	 <a href="/ddc"> <img src="img/ppee.jpg" alt="PPEE" style="width:60%;"/></a>
+
+	  
+	  
 	  <!-- About -->
 	  <section id="about" class="home-section- bg-blue">
 		<div class="container">
@@ -23,72 +54,465 @@
 					<!--<div class="section-heading"> -->
 					
 					
-					 <h1 style="text-transform:uppercase; font-family:impact; color:#FFFFFF;">
-				1st Workshop on Parallel Programming in the Exascale Era (PPEE 2021)
-					</h1>
-					 <h2 style="text-transform:uppercase; font-family:impact; color:#FFFFFF;">
-				17th - 18th December 2021, Bangalore, India
-					</h2>
-					<hr/>
-					 <h3>OVERVIEW</h3>
-					 <p align="justify">
-					 The upcoming exascale systems will impose new requirements on application developers and programming systems to target platforms with hundreds of homogeneous and heterogeneous cores. The four critical challenges for exascale systems are extreme parallelism, power demand, data movement, and reliability. These systems are aimed to solve problems that were previously out of reach and improve the parallel performance of applications by a factor of 50x. The power budget for achieving a billion billion (quintillion) floating-point operations per second (exaflops) will be within 20-30 MW. Moving the data on these systems relative to the computation will be challenging due to complex memory hierarchies. It would be essential to keep the CPUs/accelerators busy once they have the data to avoid memory bottlenecks. Failures on these systems are anticipated to occur many times a day, such that the existing approach for resiliency, such as checkpointing and restart, will not work.
- 
-					 </p>
+					 <!--<h1 style="text-transform:uppercase; font-family:impact; color:#FFFFFF;">1ST WORKSHOP ON PARALLEL PROGRAMMING IN THE EXASCALE ERA (PPEE 2021)</h1><hr/>
+					 <h3>17TH - 18TH DECEMBER 2021, BANGALORE, INDIA</h3>  -->
+					 
+					 <h3 style="text-decoration:underline;"><strong>OVERVIEW</strong></h3>
+					 <p align="justify">The upcoming exascale systems will impose new requirements on application developers and programming systems to target platforms with hundreds of homogeneous and heterogeneous cores. The four critical challenges for exascale systems are extreme parallelism, power demand, data movement, and reliability. These systems are aimed to solve problems that were previously out of reach and improve the parallel performance of applications by a factor of 50x. The power budget for achieving a billion billion (quintillion) floating-point operations per second (exaflops) will be within 20-30 MW. Moving the data on these systems relative to the computation will be challenging due to complex memory hierarchies. It would be essential to keep the CPUs/accelerators busy once they have the data to avoid memory bottlenecks. Failures on these systems are anticipated to occur many times a day, such that the existing approach for resiliency, such as checkpointing and restart, will not work.</p><br/>
 
-					 <h3>TOPICS</h3>
+					 <h3 style="text-decoration:underline;"><strong>TOPICS</strong></h3>
 					 <p align="justify">
 					 The goal of this workshop is to attract leading researchers to exchange ideas and share their work-in-progress and latest results to address the exascale software challenges. Topics of interest include, but are not limited to:
 <br>
 <ul>
-<li>High-level programming models for many-cores / accelerators </li>
-<li>Compilation techniques for hybrid CPU/accelerator parallelism </li>
-<li>Intra- / Inter-node load balancing and scheduling </li>
-<li>Runtime systems for high performance and high productivity; </li>
-<li>OS/runtime and system software for manycore systems, accelerators, and non-uniform memory hierarchy </li>
-<li>Scalable synchronization mechanisms </li>
-<li>Optimizing data locality and data movement </li>
-<li>Energy efficiency and optimizations; </li>
-<li>Resilience and fault-tolerance </li>
-<li>Comparisons of runtime systems </li>
-<li>Applying machine learning techniques in HPC </li>
-<li>Scalable algorithms </li>
+<li style="text-align:left;">High-level programming models for many-cores / accelerators </li>
+<li style="text-align:left;">Compilation techniques for hybrid CPU/accelerator parallelism </li>
+<li style="text-align:left;">Intra- / Inter-node load balancing and scheduling </li>
+<li style="text-align:left;">Runtime systems for high performance and high productivity; </li>
+<li style="text-align:left;">OS/runtime and system software for manycore systems, accelerators, and non-uniform memory hierarchy </li>
+<li style="text-align:left;">Scalable synchronization mechanisms </li>
+<li style="text-align:left;">Optimizing data locality and data movement </li>
+<li style="text-align:left;">Energy efficiency and optimizations; </li>
+<li style="text-align:left;">Resilience and fault-tolerance </li>
+<li style="text-align:left;">Comparisons of runtime systems </li>
+<li style="text-align:left;">Applying machine learning techniques in HPC </li>
+<li style="text-align:left;">Scalable algorithms </li>
 </ul>
 					 </p>
 
-					 <h3>IMPORTANT DATES</h3>
+					 <h3 style="text-decoration:underline;"><strong>IMPORTANT DATES</strong></h3>
 					 <p align="justify">
 <ul>
-<li>Abstract Submission Deadline:  October 19, 2021 (encouraged) </li>
-<li>Paper Submission Deadline: October 26, 2021 (hard deadline) </li>
-<li>Paper Notification: November 10, 2021 </li>
-<li>Presentation Slides Upload Deadline: November 17, 2021 </li>
+<li style="text-align:left;">Abstract Submission Deadline:  October 19, 2021 (encouraged) </li>
+<li style="text-align:left;">Paper Submission Deadline: October 26, 2021 (hard deadline) </li>
+<li style="text-align:left;">Paper Notification: November 10, 2021 </li>
+<li style="text-align:left;">Presentation Slides Upload Deadline: November 17, 2021 </li>
 </ul>
 					 </p>
 
-					 <h3>SUBMISSION GUIDELINES</h3>
+					 <h3 style="text-decoration:underline;"><strong>SUBMISSION GUIDELINES</strong></h3>
 					 <p align="justify">
 					 Papers are to be submitted online in PDF format through Easychair. The papers must not exceed 5 pages, including figures, tables, and references). Submissions should be formatted as single-spaced, double-column pages (IEEE format). The accepted papers will be invited for presentation at the workshop. However, these papers will NOT be published in the conference proceedings. This will allow the authors to publish an extended version of their paper at other venues after benefiting from reviewer feedback from the workshop. Papers will be judged on technical merit, quality, and relevance to the workshop. Plagiarism, in any form, especially verbatim reproduction from other published works, is prohibited. Papers that are plagiarized will be rejected, and the corresponding department and institution will be notified.
 
 					 </p>
 
-					 <h3>ORGANIZATION COMMITTEE</h3>
+					 <h3 style="text-decoration:underline;"><strong>ORGANIZATION COMMITTEE</strong></h3>
 					 <p align="justify">
 <ul>
-<li><a href="https://vivkumar.github.io/">Vivek Kumar</a>, IIIT-Delhi, India </li>
-<li><a href="https://www.cse.iitk.ac.in/users/swarnendu/">Swarnendu Viswas</a>, IIT Kanpur, India </li>
-<li><a href="https://vishweshjatala.github.io/">Vishwesh Jatala</a>, IIT Bhilai, India </li>
+<li style="text-align:left;"><a href="https://vivkumar.github.io/">Vivek Kumar</a>, IIIT-Delhi, India </li>
+<li style="text-align:left;"><a href="https://www.cse.iitk.ac.in/users/swarnendu/">Swarnendu Viswas</a>, IIT Kanpur, India </li>
+<li style="text-align:left;"><a href="https://vishweshjatala.github.io/">Vishwesh Jatala</a>, IIT Bhilai, India </li>
 </ul>
 					 </p>
 
-					 <h3>Notice about COVID-19</h3>
+					 <h3 style="text-decoration:underline;"><strong>Notice about COVID-19</strong></h3>
 					 <p align="justify">
 					 We are closely monitoring the COVID-19 situation globally and in India in particular. The decision of whether to hold the workshop on-site or virtually will be made before November 2021. Should the conference be held on-site, we understand that travel to India and within India may still be difficult or even impossible for some. Because travel from outside India will require an entry visa and that there may be travel restrictions still in place, we will arrange some form of remote presentation for those authors. Every accepted paper will have at least one author who will register and present the paper at the workshop (virtually/physically).
 					 </p>
-
+					 
+					 
 					<!--</div> -->
 				  </div>
 			  </div>
-			 
-</body> 
+			  
+			   
+			   
+			  <!-- <div class="row">
+			   <center> -->
+			   <!--<table border=1 cellpadding=0 cellspacing=0 width=80% style="color:#000000; text-align:left; ">
+<tr><td colspan="2" style="text-align:center; font-weight:bold; background-color:#a62005; color:#FFFFFF;">Minute to Minute Program Schedule</td></tr>
+<tr><td style="width:150px;" rowspan="3">9am - 1pm</td><td> Film 1: Around the use of  innovative technologies to solve Delhi’s challenges to strengthen our shared sustainable future and communities.</td></tr>
+<tr><td>Film 2: Social and historical trajectory of Delhi’s development</td></tr>
+<tr><td>Films screenings: We aim to showcase audio visual content that puts the theme of this conalve in perspective. We will be hosting these screenings online, which will be made available in advance as well.</td></tr>
+
+
+<tr><td>1pm - 2pm</td><td>Interaction with film-makers, hosted online with Dr Aasim Khan</td></tr>
+
+<tr><td style="width:100px;" rowspan="3">2pm - 3:30pm</td><td>Panel 1: Theme related to the social aspects of sustainability challenge in Delhi.</td></tr>
+<tr><td>Hosted by Dr Praveen Priyadarshi and Dr Smriti Singh</td></tr>
+<tr><td>Expert 1, 2, 3,4 TBD</td></tr>
+
+<tr><td style="width:100px;" rowspan="3">3:30pm - 5pm</td><td>Panel 2: Air pollution menace and the future of Delhi’s communities.</td></tr>
+<tr><td>Hosted by Dr Gayatri Nair and Dr Raghava Mutharaju</td></tr>
+<tr><td>Expert 1,2,3,4 TBD</td></tr>
+
+<tr><td style="width:100px;" rowspan="3">5:30pm</td><td>Plenary remarks: Dr Ranjan Bose, Director, IIIT-Delhi.</td></tr>
+<tr><td>Conclave Keynote </td></tr>
+<tr><td>Dr Smriti Singh coordinating: TBD</td></tr>
+
+<tr><td style="width:100px;" rowspan="2">6:30pm</td><td>Closing remarks and vote of Thanks.</td></tr>
+<tr><td>Dr Ganesh Bagler, DoCA</td></tr>
+
+
+</table> -->
+
+<!--<table border=1 cellpadding=0 cellspacing=0 width=80% style="color:#000000; text-align:left; ">
+<tr><td colspan="2" style="text-align:center; font-weight:bold; background-color:#a62005; color:#FFFFFF;">Minute to Minute Program Schedule</td></tr>
+<tr><td>11am - 11:15pm</td><td>Inaugural remarks: Prof Ranjan Bose, Director, IIIT-Delhi</td></tr>
+<tr><td>11:15am - 12:45pm</td><td>Developing DiverCity Workshop</td></tr>
+<tr><td>12:45pm - 1:00pm</td><td>Break</td></tr>
+<tr><td>1:00pm -  2:30pm</td><td>Panel 1: Urban Mobilities and Immobilities (<strong>Dr. Pravesh Biyani</strong> (ECE, IIIT-Delhi), <strong>Anurag Mazumdar</strong>, <strong>Piyush S. Girgaonkar</strong> - Founder, Plannogram)</td></tr>
+<tr><td>2:30pm -  2:45pm</td><td>Break</td></tr>
+<tr><td>2:45pm -  4:15pm</td><td>Panel 2: Air pollution menace and the future of Delhi’s communities (<strong>Kartik Ganesan</strong>, Council on Energy, Environment and Water (CEEW), <strong>Sruti Modekurty</strong>, Platform Lead, OpenAQ, <strong>Sagnik Dey</strong>, Associate Professor, Centre for Atmospheric Sciences, IIT Delhi, <strong>Rohit Negi</strong>, Associate Professor, Ambedkar University, Delhi)</td></tr>
+<tr><td>4:15pm -  4:30pm</td><td>Break</td></tr>
+<tr><td>4:30pm -  5:15pm</td><td>Conclave Keynote one - Smart enough cities - Prof. Gopinath, IISc</td></tr>
+<tr><td>5:15pm -  5:30pm</td><td>Urban Research Lab (URL) at IIIT-Delhi </td></tr>
+<tr><td>5:30pm -  6:30pm</td><td>Conclave Keynote 2: Delhi government</td></tr>
+<tr><td>6:30pm -  6:45pm</td><td>Concluding remarks, Dr Ganesh Bagler, DoCA</td></tr>
+<tr><td>6:45pm -  8:00pm</td><td>Special Film Screening : Cities of Sleep -  Followed by an Interaction with film-maker, hosted online with Dr Aasim Khan </td></tr>
+<tr><td>8:00pm</td><td>Conclusion</td></tr>
+
+</table> -->
+<!--</center>
+               </div> -->
+		<!--<hr/>
+		<div class="row">
+			  <h1 style=" font-family:impact;  color:#FFFFFF;">Developing DiverCity Workshop / Learn to build digital interfaces to archive development and diversity in the modern city</h1><hr/>
+<p align="justify">The Developing DiverCities is a workshop that will introduce participants to the DiverCity Web Archive initiated at the School of Media and Cultural Studies, Tata Institute of Social Sciences, Mumbai. The unique online project is built around an interactive website(http://divercity.tiss.edu) that hosts a group of compact online archives which allow the users to access and explore a particular issue or theme through different perspectives and materials produced and curated collaboratively by the students and faculty.<br/>In the workshop participants will learn how to develop similar archives for Delhi and understand the value of developing projects that actively seeks to resist the politics of forgetting central to the realisation of the project of creating a homogenised and sanitised ‘world-class’ city at the expense of its vulnerable communities and their histories and their geographies.</p>
+
+                   <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+					<div class="box-team wow bounceInDown-" data-wow-delay="0.1s">
+                   
+                    </div>
+                   </div>
+				   			   
+				   
+				   <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+					<div class="box-team wow bounceInDown-" data-wow-delay="0.1s">
+                    <img src="img/team/faiz250.jpg" alt="" class="img-responsive" style="width:250px; border-radius:150px;"/>
+                    <h5><a href="#"><strong>Faiz Ullah</strong></a><br/>School of Media and Cultural Studies, Tata Institute of Social Sciences, Mumbai</h5>
+                    </div>
+                   </div>
+				   
+				   <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+					<div class="box-team wow bounceInDown-" data-wow-delay="0.1s">
+                   
+                    </div>
+                   </div> 
+				   
+				   
+                </div>
+				
+								<div class="clearfix"></div>
+								<p style="text-align:center;"><a href="https://docs.google.com/forms/d/e/1FAIpQLSe_OXgN1K6QztOkq3bS39ILqA6KpfPjSWhowkC0LIsmNsjc0w/viewform?gxids=7757" style="background: #222222;  padding: 10px 20px;  color: #fff;   text-align: center; font-size:24px; text-transform: uppercase;">Register for the Workshop</a> </p> 
+								
+<br/>
+<hr/> -->
+<!--<h2 style="text-transform:uppercase; font-family: impact; margin-left:-95px !important;">Keynote Speakers</h2><br/> -->
+
+
+<!--<div cass="row">
+
+<!--<div class="col-xs-12 col-sm-1 col-md-1 col-lg-1"><div class="box-team wow bounceInDown-" data-wow-delay="0.1s"></div></div>  -->
+
+
+<!--<h2 style="text-transform:uppercase; font-family: impact; margin-left:1px !important;">Keynote Speaker 1</h2><br/>
+				   <p align="justify">Smart Cities are the future and smart cities are fueled by data. However, data is sensitive and requires carefully calibration of methodology to protect the interests of residents of Smart Cities from threats. This talk engages with issues of data protection, data access and control and its implications for the smart city project.</p>
+				   <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4"><div class="box-team wow bounceInDown-" data-wow-delay="0.1s"></div></div>
+<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+					<div class="box-team wow bounceInDown-" data-wow-delay="0.1s">
+                    <img src="img/team/gopinath.jpg" alt="" class="img-responsive" style="width:250px; border-radius:150px;"/>
+                    <h5><a href="#"><strong>K. Gopinath</strong></a><br/>Professor, Computer Science & Automation, IISc, Bangalore</h5>
+                    </div>
+                   </div>
+				   
+				   <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4"><div class="box-team wow bounceInDown-" data-wow-delay="0.1s"></div></div>
+				   
+				   </div>
+				   <div class="clearfix"></div>
+					
+					<br/>
+
+		<hr/>
+				   <div cass="row">
+				   
+				   <h2 style="text-transform:uppercase; font-family: impact; margin-left:1px !important;">Keynote Speaker 2</h2><br/>
+				   <p align="justify">From the time that modern industry came to India, there also grew a concern around the pollution of air. In part, this was for aesthetic reasons, with the imperial administrative elite keen to ensure that Oriental cities did not look and feel like English industrial towns. In time, an emerging Indian middle class also took up the challenge of ensuring pollution free cities, prompted as much by health concerns as by notions of economic efficiency. My presentation shall look at the articulation of these concerns over time and the technological options that have been periodically proposed to deal with the issue. The first part of the presentation shall look at air pollution and its proposed solutions in colonial cities - greater use of electricity, better design of chimneys that could disperse smoke at a height and use of better combustion engines. The second part shall look at more recent interventions, from the choice of alternative fuels for transport to the proposal for smog towers. Through all this I shall seek to underline the social nature of technological choices made towards the management of urban air.
+</p>
+				   <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4"><div class="box-team wow bounceInDown-" data-wow-delay="0.1s"></div></div>
+				   
+				   <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+					
+					<div class="box-team wow bounceInDown-" data-wow-delay="0.1s">
+					
+                    <img src="img/team/sharan.jpg" alt="" class="img-responsive" style="width:250px; border-radius:150px;"/>
+                    <h5><a href="#"><strong>Awadhendra Sharan</strong></a><br/>Professor, Centre for the Study of Developing Societies</h5>
+                    </div>
+                   </div>
+				   <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4"><div class="box-team wow bounceInDown-" data-wow-delay="0.1s"></div></div>
+				   
+				   </div>
+				    <div class="clearfix"></div>
+					
+					<br/>
+
+		<hr/>  -->
+
+<!--<div class="row">
+
+<h2 style="text-transform:uppercase; font-family: impact;">Panel I<br/><span style="font-family: cursive; font-weight:normal; font-size:20px; text-transform:capitalize;">Urban Mobility and Communities</span></h2>
+                    <p align="justify">This panel focuses on urban mobility in Delhi and explores the patterns and consequences of introduction of digital infrastructure in the sphere of urban mobility. Mobility, its unique character and pace shapes the urban space and community. Frequency, density and pace of movement of goods and people in urban spaces shape the experience of the urban. How the urban space and community integrates certain kinds of movement in its planning, how mobility planning in urban spaces needs to negotiates with community resilience, how people move from one place to another in a city, what is the economy of urban mobility, are all questions that can help shape our understanding of the urban space better. Since the logic that shapes transportation infrastructure, also defines the ways in which communities navigate and negotiate the urban space, it is central to the organisation of urban communities.</p><br/>
+				   
+				   
+				   <div class="col-xs-12 col-sm-1 col-md-1 col-lg-1"><div class="box-team wow bounceInDown-" data-wow-delay="0.1s"></div></div>
+				   
+				   <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+					<div class="box-team wow bounceInDown-" data-wow-delay="0.1s">
+                    <img src="img/team/anuragmajumdar.jpg" alt="" class="img-responsive" style="width:250px; border-radius:150px;"/>
+                    <h5><a href="#"><strong>Anurag Mazumdar</strong><br/>PhD scholar at the Department of Geography and Geographical Science, University of Illinois</a></h5>
+                    </div>
+                   </div>
+				   
+				   <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+					<div class="box-team wow bounceInDown-" data-wow-delay="0.1s">
+                    <img src="img/team/profdineshmohan.jpg" alt="" class="img-responsive" style="width:250px; border-radius:150px;"/>
+                    <h5><a href="#"><strong>Prof. Dinesh Mohan</strong><br/>Honorary Professor at Indian Institute of Technology Delhi</a></h5>
+                    </div>
+                   </div>
+				   
+				   <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+					<div class="box-team wow bounceInDown-" data-wow-delay="0.1s">
+                    <img src="img/team/praveshbiyani250250.jpg" alt="" class="img-responsive" style="width:250px; border-radius:150px;"/>
+                    <h5><a href="#"><strong>Dr. Pravesh Biyani</strong></a> <br/> ECE, IIIT-Delhi</h5>
+                    </div>
+                   </div>
+				   
+				   
+				   <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+					<div class="box-team wow bounceInDown-" data-wow-delay="0.1s">
+                    <img src="img/team/piyushs.jpg" alt="" class="img-responsive" style="width:250px; border-radius:150px;"/>
+                    <h5><a href="#"><strong>Piyush S. Girgaonkar</strong></a><br/>International Fellow at International Metropolitan Institute<br/>Founder, Plannogram</h5>
+                    </div>
+                   </div>
+				   
+				   <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+					<div class="box-team wow bounceInDown-" data-wow-delay="0.1s">
+                    <img src="img/team/sarayu250250.jpg" alt="" class="img-responsive" style="width:250px; border-radius:150px;"/>
+                    <h5><a href="#"><strong>Sarayu Natarajan</strong><br/>Founder, Aapti Institute</a></h5>
+                    </div>
+                   </div>
+				   
+				   
+				   <div class="col-xs-12 col-sm-1 col-md-1 col-lg-1"><div class="box-team wow bounceInDown-" data-wow-delay="0.1s"></div></div>
+				   
+				   </div> --><!-- row -->
+				   
+				   <!--<div class="row">
+				   <div class="col-xs-12 col-sm-1 col-md-1 col-lg-1"><div class="box-team wow bounceInDown-" data-wow-delay="0.1s"></div></div>
+				   
+				   <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+					<div class="box-team wow bounceInDown-" data-wow-delay="0.1s">
+                    
+                    </div>
+                   </div>
+				   
+				   <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+					<div class="box-team wow bounceInDown-" data-wow-delay="0.1s">
+                    <img src="img/team/sarayu250250.jpg" alt="" class="img-responsive" style="width:250px; border-radius:150px;"/>
+                    <h5><a href="#">Sarayu Natarajan<br/>Founder, Aapti Institute</a></h5>
+                    </div>
+                   </div>
+				   
+				   
+				   </div> -->
+				   
+		
+				<!--<div class="clearfix"></div>
+<br/>
+<hr/>
+<div class="row">
+<h2 style="text-transform:uppercase; font-family: impact;">Panel II<br/><span style="font-family:cursive; font-weight:normal; font-size:20px; text-transform:capitalize;">Air pollution menace and the future of Delhi’s communities</span></h2>
+                    <p align="justify">The worsening quality of air in the city, peaking during the onset of winter, remains a curious subject- one which led to much furore but has not translated into wide social or political change on the ground. As a public good, the quality of air is presumed to affect everyone equally and consequently support for improving its quality is presumed to be unanimous. However, the past few years have highlighted the conflictual terrain of measuring, studying and legislating on air. Disputes on the primary source, the unequal consequences of air pollution, and social tensions that shape legislation indicate that pollution is an issue that requires wider and collaborative consideration. The panel brings together experts from domains of technology, social science and policy to discuss the problems but also the possibilities present in thinking through the current crisis of pollution.
+</p><br/> -->
+				   
+				   <!--<div class="col-xs-12 col-sm-1 col-md-1 col-lg-1">
+					<div class="box-team wow bounceInDown-" data-wow-delay="0.1s">
+                    
+                    </div>
+                   </div> -->
+				   <!--<div class="col-xs-12 col-sm-1 col-md-1 col-lg-1"><div class="box-team wow bounceInDown-" data-wow-delay="0.1s"></div></div>
+				   <div class="col-xs-12 col-sm-1 col-md-1 col-lg-1"><div class="box-team wow bounceInDown-" data-wow-delay="0.1s"></div></div>
+				   
+				   <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+					<div class="box-team wow bounceInDown-" data-wow-delay="0.1s">
+                    <img src="img/team/karthikganesan.jpg" alt="" class="img-responsive" style="width:250px; border-radius:150px;"/>
+                    <h5><a href="#"><strong>Kartik Ganesan</strong></a> <br/>Council on Energy, Environment and Water (CEEW)</h5>
+                    </div>
+                   </div>
+				   
+				   <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+					<div class="box-team wow bounceInDown-" data-wow-delay="0.1s">
+                    <img src="img/team/Sruti_Modekurty.jpg" alt="" class="img-responsive" style="width:250px; border-radius:150px;"/>
+                    <h5><a href="#"><strong>Sruti Modekurty</strong><br/>Platform Lead, OpenAQ</a></h5>
+                    </div>
+                   </div>
+				   <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+					<div class="box-team wow bounceInDown-" data-wow-delay="0.1s">
+                    <img src="img/team/Sagnik_Dey.jpg" alt="" class="img-responsive" style="width:250px; border-radius:150px;"/>
+                    <h5><a href="#"><strong>Sagnik Dey</strong></a><br/>Associate Professor, Centre for Atmospheric Sciences, IIT Delhi</h5>
+                    </div>
+                   </div>
+				   
+				   <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+					<div class="box-team wow bounceInDown-" data-wow-delay="0.1s">
+                    <img src="img/team/Rohit_Negi.jpg" alt="" class="img-responsive" style="width:250px; border-radius:150px;"/>
+                    <h5><a href="#"><strong>Rohit Negi</strong><br/>Associate Professor, School of Global Affairs, Ambedkar University, Delhi</a></h5>
+                    </div>
+                   </div>
+				   
+				   <div class="col-xs-12 col-sm-1 col-md-1 col-lg-1"><div class="box-team wow bounceInDown-" data-wow-delay="0.1s"></div></div>
+				   <div class="col-xs-12 col-sm-1 col-md-1 col-lg-1"><div class="box-team wow bounceInDown-" data-wow-delay="0.1s"></div></div>
+				   </div> --> <!-- row -->
+				   
+				   <!--<div class="row">
+				   <div class="col-xs-12 col-sm-1 col-md-1 col-lg-1">
+					<div class="box-team wow bounceInDown-" data-wow-delay="0.1s">
+                    
+                    </div>
+                   </div>
+				   
+				   <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+					<div class="box-team wow bounceInDown-" data-wow-delay="0.1s">
+                    
+                    </div>
+                   </div>
+				   
+				   <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+					<div class="box-team wow bounceInDown-" data-wow-delay="0.1s">
+                    <img src="img/team/Rohit_Negi.jpg" alt="" class="img-responsive" style="width:250px; border-radius:150px;"/>
+                    <h5><a href="#">Rohit Negi<br/>Associate Professor, School of Global Affairs, Ambedkar University, Delhi</a></h5>
+                    </div>
+                   </div>
+				   
+				   
+				   </div> -->
+				   
+				   <!--<hr/>
+		<div class="clearfix"></div>
+
+<br/>
+		
+		<div class="row">
+			  <h2 style="text-transform:uppercase; font-family: impact;">Conveners</h2>
+                   
+				   <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+					<div class="box-team wow bounceInDown-" data-wow-delay="0.1s">
+                    <img src="img/team/aasim.jpg" alt="" class="img-responsive" style="width:250px;"/> 
+                    <h5><a href="https://www.iiitd.ac.in/aasim" target="_blank">Dr. Aasim<br/> Khan</a><br/>(IIIT-Delhi)</h5>
+                    </div>
+                   </div>
+				   
+				   <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+					<div class="box-team wow bounceInDown-" data-wow-delay="0.1s">
+                    <img src="img/team/ganeshbagler.jpg" alt="" class="img-responsive" style="width:250px;"/> 
+                    <h5><a href="https://www.iiitd.ac.in/bagler" target="_blank">Dr. Ganesh<br/> Bagler</a><br/>(IIIT-Delhi)</h5>
+                    </div>
+                   </div>
+				   
+				    <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+					<div class="box-team wow bounceInDown-" data-wow-delay="0.1s">
+                    <img src="img/team/gayatrinair.jpg" alt="" class="img-responsive" style="width:250px;"/> 
+                    <h5><a href="https://iiitd.ac.in/gayatri" target="_blank">Dr. Gayatri<br/> Nair</a><br/>(IIIT-Delhi)</h5>
+                    </div>
+                   </div>
+				   
+				   
+				   <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+					<div class="box-team wow bounceInDown-" data-wow-delay="0.1s">
+                    <img src="img/team/Praveen_Priyadarshi.jpg" alt="" class="img-responsive" style="width:250px;"/> 
+                    <h5><a href="https://iiitd.ac.in/praveen" target="_blank">Dr. Praveen<br/> Priyadarshi</a><br/>(IIIT-Delhi)</h5>
+                    </div>
+                   </div>
+				   			   
+				  			   
+				    <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+					<div class="box-team wow bounceInDown-" data-wow-delay="0.1s">
+                    <img src="img/team/Raghava_Mutharaju.jpg" alt="" class="img-responsive" style="width:250px;"/> 
+                    <h5><a href="https://iiitd.ac.in/raghavam" target="_blank">Dr. Raghava<br/> Mutharaju</a><br/>(IIIT-Delhi)</h5>
+                    </div>
+                   </div>
+				   				   
+				   <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+					<div class="box-team wow bounceInDown-" data-wow-delay="0.1s">
+                    <img src="img/team/smritisingh.jpg" alt="" class="img-responsive" style="width:250px;"/> 
+                    <h5><a href="https://iiitd.ac.in/smriti" target="_blank">Dr. Smriti<br/> Singh</a><br/>(IIIT-Delhi)</h5>
+                    </div>
+                   </div>
+				   
+                </div>
+				
+				<div class="clearfix"></div>	
+              
+			  
+			  </div>	
+			  
+			</div>  	 -->		  
+		  	  
+	  </section>
+	  
+		
+	  
+	 <!-- Contact --><!--<hr/> -->
+	  <section id="contact" class="home-section-- bg-white-- bg-blue">
+	  	<div class="container">
+			  <!--<div class="row">
+				  <div class="col-md-offset-2 col-md-8">
+					<div class="section-heading">
+					 <h2>Contact us</h2>
+					<h5>For more information on the theme of the conference and the project, please visit <a href="#">website</a></h5>
+					</div>
+				  </div>
+			  </div> -->
+
+	  		<div class="row">
+	  			
+			
+				
+	  		</div>
+			<!--<hr/>
+			<div class="row mar-top30 ">
+				<div class="col-md-offset-2 col-md-8">
+				<h5 style="color:#fff;">Contact Us: 011-26907 512, 463, 533</h5>
+					<h5 style="color:#fff;">We're on social networks</h5>
+					<ul class="social-network">
+						<li><a href="https://www.facebook.com/IIITDelhi">
+						<span class="fa-stack fa-2x">
+							<i class="fa fa-circle fa-stack-2x"></i>
+							<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+						</span></a>
+						</li>
+						
+						<li><a href="https://twitter.com/IIITDelhi">
+						<span class="fa-stack fa-2x">
+							<i class="fa fa-circle fa-stack-2x"></i>
+							<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+						</span></a>
+						</li>
+						
+					</ul>
+					<br/>
+				</div>				
+			</div> -->
+
+	  	</div>
+	  </section>  
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<p>Copyright &copy; 2021. IIIT-Delhi</p>
+				</div>
+			</div>		
+		</div>	
+	</footer>
+	 
+	 <!-- js -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.smooth-scroll.min.js"></script>
+	<script src="js/jquery.dlmenu.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/custom.js"></script>
+  	
 </html>
